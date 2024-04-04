@@ -3,13 +3,24 @@
     <head>
         <meta charset="utf-8">
         <title>Lasagna</title>
+        <style>
+            body {
+                font-family: "Verdana", sans-serif;
+            }
+            h1, h2, .desc {
+                text-align: center;
+            }
+            .first, ul {
+                color: chocolate;
+            }
+        </style>
     </head>
     <body>
         <h1>Lasagna</h1>
         <img src="lasagna" alt="lasagna">
         <h2>Description</h2>
-        <p>Making lasagna can be time-consuming, but the results are well worth the wait. You'll find a detailed ingredient list and step-by-step instructions in the recipe below, but let's go over the basics:</p>
-        <h3>Ingredients</h3>
+        <p class="desc">Making lasagna can be time-consuming, but the results are well worth the wait. You'll find a detailed ingredient list and step-by-step instructions in the recipe below, but let's go over the basics:</p>
+        <h3 class="first">Ingredients</h3>
         <ul>
             <li><strong>Meat:</strong> This super meaty lasagna has sweet Italian sausage and lean ground beef.</li>
             <li><strong>Onion and garlic:</strong> An onion and two cloves of garlic are cooked with the meat to add tons of flavor.</li>
@@ -21,13 +32,15 @@
             <li><strong>Egg:</strong> An egg helps bind the ricotta so it doesn't ooze out of the lasagna when you cut into it.</li>
         </ul>
         <h3>Steps</h3>
-        <ol>
-            <li>Make the meat sauce.</li>
-            <li>Cook the noodles.</li>
-            <li>Make the ricotta mixture.</li>
-            <li>Layer the lasagna according to the recipe instructions.</li>
-            <li>Cover with foil and bake.</li>
-            <li>Let the lasagna rest before serving.</li>
-        </ol>
+        <div>
+            <ol>
+                <li>Make the meat sauce.</li>
+                <li>Cook the noodles.</li>
+                <li>Make the ricotta mixture.</li>
+                <li>Layer the lasagna according to the recipe instructions.</li>
+                <li>Cover with foil and bake.</li>
+                <li>Let the lasagna rest before serving.</li>
+            </ol>
+        </div>
     </body>
 </html>
